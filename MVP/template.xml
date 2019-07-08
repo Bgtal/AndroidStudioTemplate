@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="5"
+    name="Mvp"
+    minApi="21"
+    minBuildApi="21"
+    description="mvp创建模板,私库地址 https://jitpack.io ,GitHub https://github.com/Bgtal/MVP">
+
+    <category value="MVP" />
+
+    <parameter
+        id="activityClass"
+        name="Mvp Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Test"
+        help="MVP 类名称 会自动给你添加Contract后缀" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_blank_activity.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

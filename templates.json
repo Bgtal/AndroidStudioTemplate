@@ -1,0 +1,11 @@
+{
+    "version": 0.1,
+    "min_plugin": 0.1,
+    "source": [
+        {
+            "name":"MVP",
+            "data":"https://raw.githubusercontent.com/Bgtal/AndroidStudioTemplate/master/MVP/template.xml",
+            "file":"https://raw.githubusercontent.com/Bgtal/AndroidStudioTemplate/master/MVP/MVP.zip"
+        }
+    ]
+}
